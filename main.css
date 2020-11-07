@@ -32,5 +32,11 @@
     border: 2px solid rgb(128, 189, 255);
   }
 .main__nav{
-background-color: rgb(33,37,41);
+    background-color: rgb(33,37,41);
+}
+.nav__ul a:link{
+    text-decoration: none;
+}
+.nav__ul{
+    list-style-type: none;
 }
