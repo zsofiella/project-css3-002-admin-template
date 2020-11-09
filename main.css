@@ -20,6 +20,7 @@ body {
     display: inline;
     float: right;
     right: 2rem;
+    margin:-5px;
 }
 
 .search__btn{
@@ -59,6 +60,15 @@ body {
     color: rgb(255,255,255);
 }
 
+.content{
+    display: inline-block
+}
+
+.main__cards{
+    margin: 10px 0px 10px 0;
+    display: inline-block
+}
+
 .main__breadcrumb{
     background-color: rgb(233,236,239);
     border-radius: 0.25rem;
@@ -67,18 +77,22 @@ body {
 
 .main__card--blue{
     background-color: rgb(0,123,255);
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
 }
 
 .main__card--yellow{
     background-color: rgb(255,193,7);
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
 }
 
 .main__card--green{
-    background-color: rgb(40,167,69)
+    background-color: rgb(40,167,69);
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
 } 
 
 .main__card--red{
     background-color: rgb(220,53,69);
+    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
 } 
 
 .card__top {
@@ -97,4 +111,12 @@ body {
         padding: 10px 110px 10px 20px;
         font-size: 0.6rem;
         transition: color 0.3s;
+}
+
+.card__top:hover{
+    background-color: rgb(128, 189, 255);
+}
+
+.card__bottom:hover{
+    background-color: rgb(128, 189, 255);
 }
