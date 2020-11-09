@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: rgb(240, 240, 240);
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -15,7 +14,6 @@ body {
 .header__title{
     display: inline;
     font-size: 1.25rem;
-    align-items: center
 }
 
 .header__search{
@@ -55,7 +53,48 @@ body {
 .nav__ul{
     list-style-type: none;
     color: rgb(255,255,255)
+    line-height: 2.5rem;
 }
 .nav__ul .li{
     color: rgb(255,255,255);
+}
+
+.main__breadcrumb{
+    background-color: rgb(233,236,239);
+    border-radius: 0.25rem;
+    padding: 1rem 1.5rem;
+}
+
+.main__card--blue{
+    background-color: rgb(0,123,255);
+}
+
+.main__card--yellow{
+    background-color: rgb(255,193,7);
+}
+
+.main__card--green{
+    background-color: rgb(40,167,69)
+} 
+
+.main__card--red{
+    background-color: rgb(220,53,69);
+} 
+
+.card__top {
+    border-radius: 0.25rem 0.25rem 0 0;
+    transition: background-color 0.3s;
+
+    padding: 20px 80px 20px 20px;
+    font-size: 0.8rem;
+    transition: color 0.3s;
+}
+
+.card__bottom {
+        border-radius: 0 0 0.25rem 0.25rem;
+        transition: background-color 0.3s;
+    
+        padding: 10px 110px 10px 20px;
+        font-size: 0.6rem;
+        transition: color 0.3s;
 }
